@@ -15,6 +15,12 @@
 		4C9192FD231E4725002C8F78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9192FC231E4725002C8F78 /* main.m */; };
 		4C919307231E4726002C8F78 /* CymHandWrittenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C919306231E4726002C8F78 /* CymHandWrittenTests.m */; };
 		4C919312231E4726002C8F78 /* CymHandWrittenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C919311231E4726002C8F78 /* CymHandWrittenUITests.m */; };
+		4C919324231E4845002C8F78 /* CJDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C919320231E4845002C8F78 /* CJDrawViewController.m */; };
+		4C919325231E4845002C8F78 /* CJDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C919320231E4845002C8F78 /* CJDrawViewController.m */; };
+		4C919326231E4845002C8F78 /* CJDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C919320231E4845002C8F78 /* CJDrawViewController.m */; };
+		4C919327231E4845002C8F78 /* CJSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C919321231E4845002C8F78 /* CJSignatureView.m */; };
+		4C919328231E4845002C8F78 /* CJSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C919321231E4845002C8F78 /* CJSignatureView.m */; };
+		4C919329231E4845002C8F78 /* CJSignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C919321231E4845002C8F78 /* CJSignatureView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,10 @@
 		4C91930D231E4726002C8F78 /* CymHandWrittenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CymHandWrittenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C919311231E4726002C8F78 /* CymHandWrittenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CymHandWrittenUITests.m; sourceTree = "<group>"; };
 		4C919313231E4726002C8F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C919320231E4845002C8F78 /* CJDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJDrawViewController.m; sourceTree = "<group>"; };
+		4C919321231E4845002C8F78 /* CJSignatureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJSignatureView.m; sourceTree = "<group>"; };
+		4C919322231E4845002C8F78 /* CJSignatureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJSignatureView.h; sourceTree = "<group>"; };
+		4C919323231E4845002C8F78 /* CJDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJDrawViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,7 @@
 		4C9192EC231E4720002C8F78 /* CymHandWritten */ = {
 			isa = PBXGroup;
 			children = (
+				4C91931F231E481E002C8F78 /* handWritten */,
 				4C9192ED231E4720002C8F78 /* AppDelegate.h */,
 				4C9192EE231E4720002C8F78 /* AppDelegate.m */,
 				4C9192F0231E4720002C8F78 /* ViewController.h */,
@@ -130,6 +141,17 @@
 				4C919313231E4726002C8F78 /* Info.plist */,
 			);
 			path = CymHandWrittenUITests;
+			sourceTree = "<group>";
+		};
+		4C91931F231E481E002C8F78 /* handWritten */ = {
+			isa = PBXGroup;
+			children = (
+				4C919323231E4845002C8F78 /* CJDrawViewController.h */,
+				4C919320231E4845002C8F78 /* CJDrawViewController.m */,
+				4C919322231E4845002C8F78 /* CJSignatureView.h */,
+				4C919321231E4845002C8F78 /* CJSignatureView.m */,
+			);
+			path = handWritten;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C9192F2231E4720002C8F78 /* ViewController.m in Sources */,
+				4C919327231E4845002C8F78 /* CJSignatureView.m in Sources */,
 				4C9192FD231E4725002C8F78 /* main.m in Sources */,
 				4C9192EF231E4720002C8F78 /* AppDelegate.m in Sources */,
+				4C919324231E4845002C8F78 /* CJDrawViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C919307231E4726002C8F78 /* CymHandWrittenTests.m in Sources */,
+				4C919328231E4845002C8F78 /* CJSignatureView.m in Sources */,
+				4C919325231E4845002C8F78 /* CJDrawViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C919312231E4726002C8F78 /* CymHandWrittenUITests.m in Sources */,
+				4C919329231E4845002C8F78 /* CJSignatureView.m in Sources */,
+				4C919326231E4845002C8F78 /* CJDrawViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,13 +466,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47QX444MCT;
 				INFOPLIST_FILE = CymHandWritten/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.akt.CymHandWritten;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,13 +484,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47QX444MCT;
 				INFOPLIST_FILE = CymHandWritten/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.akt.CymHandWritten;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
