@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C57ABCF23595FA200E805F6 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C57ABCE23595FA200E805F6 /* BaseViewController.m */; };
 		4C9192EF231E4720002C8F78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9192EE231E4720002C8F78 /* AppDelegate.m */; };
 		4C9192F2231E4720002C8F78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9192F1231E4720002C8F78 /* ViewController.m */; };
 		4C9192F5231E4720002C8F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C9192F3231E4720002C8F78 /* Main.storyboard */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C57ABCD23595FA200E805F6 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		4C57ABCE23595FA200E805F6 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		4C9192EA231E4720002C8F78 /* CymHandWritten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CymHandWritten.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9192ED231E4720002C8F78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C9192EE231E4720002C8F78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 				4C9192EE231E4720002C8F78 /* AppDelegate.m */,
 				4C9192F0231E4720002C8F78 /* ViewController.h */,
 				4C9192F1231E4720002C8F78 /* ViewController.m */,
+				4C57ABCD23595FA200E805F6 /* BaseViewController.h */,
+				4C57ABCE23595FA200E805F6 /* BaseViewController.m */,
 				4C9192F3231E4720002C8F78 /* Main.storyboard */,
 				4C9192F6231E4725002C8F78 /* Assets.xcassets */,
 				4C9192F8231E4725002C8F78 /* LaunchScreen.storyboard */,
@@ -285,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C9192F2231E4720002C8F78 /* ViewController.m in Sources */,
+				4C57ABCF23595FA200E805F6 /* BaseViewController.m in Sources */,
 				4C919327231E4845002C8F78 /* CJSignatureView.m in Sources */,
 				4C9192FD231E4725002C8F78 /* main.m in Sources */,
 				4C9192EF231E4720002C8F78 /* AppDelegate.m in Sources */,
